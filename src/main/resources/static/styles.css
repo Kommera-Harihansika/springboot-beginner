@@ -1,43 +1,50 @@
-h1
-{
-    color:blue
+h1 {
+    color: blue;
 }
-.navbar
-{
-    border-width:2px;
-    border-color: grey;
-    border-style:solid;
-    padding:30px;
-    text-align:center;
-}
-.navbar a
-{
-    padding:20px;
-    color:grey;
 
+.navbar {
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
 }
-.navbar a:hover
-{
-    color:green;
-}
-body
-{
-    margin:0px;
-    background-color: yellow; 
-}
-.card
-{
-    border:2px solid grey;
-    text-align:center;
-    margin-top:80px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: aliceblue;
-    border-radius:10px;
-    overflow:hidden;
 
+.navbar a{
+    padding: 25px;
+    text-decoration: none;
+    color: grey;
 }
-.card img
-{
-    width:100px;
+
+.navbar a:hover {
+    color: black;
+}
+
+body {
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+.card {
+    border: 2px solid grey;
+    width: 350px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
