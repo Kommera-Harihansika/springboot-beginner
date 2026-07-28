@@ -2,3 +2,26 @@ h1
 {
     color:blue
 }
+.navbar
+{
+    border-width:2px;
+    border-color: grey;
+    border-style:solid;
+    padding:30px;
+    text-align:center;
+}
+.navbar a
+{
+    padding:20px;
+    color:grey;
+
+}
+.navbar a:hover
+{
+    color:green;
+}
+body
+{
+    margin:0px;
+    background-color: yellow; 
+}
